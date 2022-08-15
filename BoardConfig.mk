@@ -110,6 +110,9 @@ TARGET_BOARD_PLATFORM := mt6768
 BOARD_HAS_MTK_HARDWARE := true
 BOARD_VENDOR := xiaomi
 
+# Power
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/hidl/power/power-mode.cpp
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/vintf/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/vintf/vendor.prop
