@@ -232,6 +232,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlaySelene \
     FrameworksResOverlaySelene \
+    SettingsOverlaySelene
     SystemUIOverlaySelene \
     TelephonyOverlaySelene \
     WifiResOverlaySelene
