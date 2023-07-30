@@ -42,3 +42,6 @@ mi_ext                                                   /mnt/vendor/mi_ext     
 /dev/block/platform/bootdevice/by-name/dtbo              /dtbo                        emmc        defaults              defaults
 /dev/block/platform/bootdevice/by-name/otp               /otp                         emmc        defaults              defaults
 /dev/block/platform/bootdevice/by-name/vbmeta            /vbmeta                      emmc        defaults              defaults
+
+# ZRAM
+/dev/block/zram0                     none                      swap     defaults             zramsize=55%
