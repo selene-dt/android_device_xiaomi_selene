@@ -50,6 +50,10 @@ TARGET_SCREEN_DENSITY := 440
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_selene
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_selene
+
 # Kernel
 BOARD_DTB_OFFSET := 0x0bc08000
 BOARD_KERNEL_BASE := 0x40078000
@@ -72,6 +76,9 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 TARGET_KERNEL_CONFIG := selene_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/selene
+
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := selenes,eos,selene
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
