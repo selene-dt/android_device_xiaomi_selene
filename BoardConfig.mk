@@ -95,6 +95,10 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_BOARD_PLATFORM := mt6768
 BOARD_HAS_MTK_HARDWARE := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/vintf/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/vintf/vendor.prop
+
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6768
