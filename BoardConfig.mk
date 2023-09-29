@@ -94,6 +94,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 BOARD_HAS_MTK_HARDWARE := true
+BOARD_VENDOR := xiaomi
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/vintf/system.prop
