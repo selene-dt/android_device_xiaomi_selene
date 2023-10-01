@@ -965,6 +965,12 @@ vendor/lib/libfgauge_gm30.so
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.beanpod.so
 
+# HotwordEnrollment - from rock-user 13 TP1A.220624.014 V14.0.3.0.TLUINXM release-keys
+product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk|30e47d2fcc1765510954993bf458a3825d600128
+product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk|e3abeb5d0ccc5e23d002cce474e7e61070524b39
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|af0ad21b030e2563a3f5502e431f0bb8e26cbaf5
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|c15b68bbb14c5d2e5dea788112e1c5d3eb19dbbc
+
 # Keymaster
 vendor/bin/bp_kmsetkey_ca
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
