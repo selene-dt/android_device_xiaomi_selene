@@ -228,6 +228,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml 
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResOverlaySelene \
+    SystemUIOverlaySelene \
+    WifiResOverlaySelene
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
@@ -238,12 +246,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
-
-PRODUCT_PACKAGES += \
-    FrameworksResOverlaySelene \
-    SystemUIOverlaySelene
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Properties
 include $(LOCAL_PATH)/configs/props/vendor_logtag.mk
