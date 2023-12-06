@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySelene \
     FrameworksResOverlaySelene \
     SystemUIOverlaySelene \
+    TelephonyOverlaySelene \
     WifiResOverlaySelene
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
