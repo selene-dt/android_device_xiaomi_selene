@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.selene
+    android.hardware.ir-service.example
 
 # Cgroup
 PRODUCT_COPY_FILES += \
