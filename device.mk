@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
     libhapticgenerator
 
 PRODUCT_PACKAGES += \
+    DolbyManager \
     MtkInCallService
 
 PRODUCT_COPY_FILES += \
