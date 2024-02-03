@@ -1,0 +1,171 @@
+on init
+    mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
+    mkdir /storage/usbotg 0700 root root
+
+on post-fs-data
+
+#Camera
+    chmod 0660 /dev/MAINAF
+    chown system camera /dev/MAINAF
+
+    chmod 0660 /dev/MAINAF2
+    chown system camera /dev/MAINAF2
+
+    chmod 0660 /dev/SUBAF
+    chown system camera /dev/SUBAF
+
+    chmod 0660 /dev/GAF001AF
+    chown system camera /dev/GAF001AF
+
+    chmod 0660 /dev/DW9714AF
+    chown system camera /dev/DW9714AF
+
+    chmod 0660 /dev/LC898212AF
+    chown system camera /dev/LC898212AF
+
+    chmod 0660 /dev/BU64745GWZAF
+    chown system camera /dev/BU64745GWZAF
+
+#SMB
+    chown system system /proc/smb/ScreenComm
+    chmod 0660 /proc/smb/ScreenComm
+
+    chmod 0660 /dev/spm
+    chown system system /dev/spm
+
+#K19A/S-T code for HQ-277199 by wangshizhen at 2023/01/06 start
+#touch
+    chown system system /sys/class/touch/touch_dev/palm_sensor
+#K19A/S-T code for HQ-277199 by wangshizhen at 2023/01/06 end
+
+#dual calib
+    chmod 0777 /mnt/vendor/persist/camera/rear_dc_cal_wd.bin
+    chmod 0777 /mnt/vendor/persist/camera/rear_dc_cal_wu.bin
+    chmod 0777 /data/vendor/camera/rear_dc_cal_wd.bin
+    chmod 0777 /data/vendor/camera/rear_dc_cal_wu.bin
+    #K19A add by lienci at 2021/6/11
+    restorecon /mnt/vendor/persist/camera/rear_dc_cal_wd.bin
+    restorecon /mnt/vendor/persist/camera/rear_dc_cal_wu.bin
+
+#XIAOMI_AI_ASD
+    mkdir /data/misc/camera 0777 system camera
+    mkdir /data/vendor/camera 0777 system camera
+
+# for intsense_k19a bokeh use
+    chown system system /data/vendor/camera/com.xiaomi.dcal.wd.data
+    chown system system /data/vendor/camera/com.xiaomi.dcal.wu.data
+    chmod 0777 /data/vendor/camera/com.xiaomi.dcal.wd.data
+    chmod 0777 /data/vendor/camera/com.xiaomi.dcal.wu.data
+    mkdir /data/vendor/camera/model 0777 system camera
+    mkdir /data/vendor/camera/model/dof_model 0777 system camera
+    mkdir /data/vendor/camera/model/rt_model 0777 system camera
+    copy /vendor/etc/camera/model/dof_model/capture_model /data/vendor/camera/model/dof_model/capture_model
+    copy /vendor/etc/camera/model/dof_model/capture_cache /data/vendor/camera/model/dof_model/capture_cache
+    copy /vendor/etc/camera/model/dof_model/capture_policy /data/vendor/camera/model/dof_model/capture_policy
+    copy /vendor/etc/camera/model/rt_model/preview_cache /data/vendor/camera/model/rt_model/preview_cache
+    copy /vendor/etc/camera/model/rt_model/preview_model /data/vendor/camera/model/rt_model/preview_model
+    copy /vendor/etc/camera/model/rt_model/preview_policy /data/vendor/camera/model/rt_model/preview_policy
+    chmod 0666 /data/vendor/camera/model/dof_model/capture_model
+    chmod 0666 /data/vendor/camera/model/dof_model/capture_cache
+    chmod 0666 /data/vendor/camera/model/dof_model/capture_policy
+    chmod 0666 /data/vendor/camera/model/rt_model/preview_cache
+    chmod 0666 /data/vendor/camera/model/rt_model/preview_model
+    chmod 0666 /data/vendor/camera/model/rt_model/preview_policy
+
+#XIAOMI_WATERMARK
+    mkdir /vendor/etc/camera 0777 system camera
+
+#dual calib
+    #K19A code to modify calib by lienci at 2021/5/25 start
+    mkdir /mnt/vendor/persist 0777 system camera
+    mkdir /mnt/vendor/persist/camera 0777 system camera
+    chmod 0777 /vendor/etc/camera/com.xiaomi.dcal.wd.golden
+    chmod 0777 /vendor/etc/camera/com.xiaomi.dcal.wu.golden
+    #K19A code to modify calib by lienci at 2021/5/25 end
+    chmod 0777 /mnt/vendor/persist/camera/rear_dc_cal_wt.bin
+    chmod 0777 /mnt/vendor/persist/camera/rear_dc_cal_wd.bin
+    chmod 0777 /mnt/vendor/persist/camera/rear_dc_cal_wu.bin
+    chmod 0777 /vendor/etc/camera/golden_ov13b10_i_ov2180_i.bin
+    chmod 0777 /vendor/etc/camera/golden_ov13b10_i_ov2180_ii.bin
+    chmod 0777 /vendor/etc/camera/golden_ov13b10_ii_ov2180_i.bin
+    chmod 0777 /vendor/etc/camera/golden_ov13b10_ii_ov2180_ii.bin
+    chmod 0777 /data/vendor/camera/golden_rear_dc_cal_wt.bin
+    chmod 0777 /data/vendor/camera/rear_dc_cal_wd.bin
+    chmod 0777 /data/vendor/camera/rear_dc_cal_wu.bin
+    chmod 0777 /data/vendor/camera/golden_s5k3l6_ii_ov2180_ii.bin
+    #modify sar Authority  by luozeng at 2021.3.30 start
+    chmod 0444  /sys/class/sensor/architecture
+    chmod 0666  /dev/sar
+    #modify sar Authority  by luozeng at 2021.3.30 end
+
+
+#Huaqin modify for K19A-335  by luocheng at 2021/07/19 start
+service mmc_ffu_micron /vendor/bin/mmc_ffu_micron do /vendor/bin/FFU_M5_11.BIN /dev/block/mmcblk0 13 00000005 00000004
+	class main
+	user root
+	group system
+	oneshot
+#Huaqin modify for K19A-335  by luocheng at 2021/07/19 end
+
+# for bokeh control
+on property:vendor.camera.bokeh.disable=1
+    setprop vendor.camera.bokeh 1
+
+on property:vendor.camera.bokeh.disable=0
+    setprop vendor.camera.bokeh 0
+
+on boot
+    setprop vendor.debug.camera.enableMetaPending 0
+    setprop vendor.debug.camera.enableMetaMerge 0
+    
+#finggerprint
+    chown system system /dev/goodix_fp
+    chmod 0644 /dev/goodix_fp
+    chown system system /sys/bus/platform/devices/fingerprint/clk_enable
+    chmod 0660 /sys/bus/platform/devices/fingerprint/clk_enable
+    chown system /sys/bus/platform/devices/fingerprint/irq
+    chmod 0660 /sys/bus/platform/devices/fingerprint/irq
+    chown system system /sys/bus/platform/devices/fingerprint/hw_reset
+    chmod 0660 /sys/bus/platform/devices/fingerprint/hw_reset
+    chown system system /sys/bus/platform/devices/fingerprint/wakeup_enable
+    chmod 0660 /sys/bus/platform/devices/fingerprint/wakeup_enable
+    chown system system /sys/bus/platform/devices/fingerprint/fingerdown_wait
+    chmod 0660 /sys/bus/platform/devices/fingerprint/fingerdown_wait
+
+    chmod 0660 /dev/nq-nci
+    chown nfc nfc /dev/nq-nci
+    chmod 0660 /dev/p73
+    chown nfc nfc /dev/p73
+
+# start mmstat
+on property:sys.boot_completed=1
+    mkdir /sys/kernel/tracing/instances/mmstat 711
+    write /sys/kernel/tracing/instances/mmstat/tracing_on 0
+    write /sys/kernel/tracing/instances/mmstat/buffer_size_kb 16
+    write /sys/kernel/tracing/instances/mmstat/events/mmstat/enable 1
+    write /sys/kernel/tracing/instances/mmstat/tracing_on 1
+
+    start panel-info-sh
+
+on property:vendor.service_nv_protect=start
+    start service_nv_protect
+
+#Touch
+on property:sys.tp.grip_enable=0
+    write /proc/nvt_edge_reject_switch 1
+
+on property:sys.tp.grip_enable=90
+    write /proc/nvt_edge_reject_switch 2
+
+on property:sys.tp.grip_enable=270
+    write /proc/nvt_edge_reject_switch 3
+
+#Touch2
+on property:sys.tp.grip_enable=0
+    write /sys/devices/platform/1100a000.spi0/spi_master/spi0/spi0.1/fts_edge_mode 0
+
+on property:sys.tp.grip_enable=90
+    write /sys/devices/platform/1100a000.spi0/spi_master/spi0/spi0.1/fts_edge_mode 1
+
+on property:sys.tp.grip_enable=270
+    write /sys/devices/platform/1100a000.spi0/spi_master/spi0/spi0.1/fts_edge_mode 2
