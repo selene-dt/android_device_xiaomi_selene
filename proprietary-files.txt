@@ -513,8 +513,10 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera
+vendor/bin/hw/camerahalserver
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
+vendor/etc/init/camerahalserver.rc
 vendor/bin/libccu_gc02m1_macro_aac_mipi_raw.dm
 vendor/bin/libccu_gc02m1_macro_aac_mipi_raw.pm
 vendor/bin/libccu_gc02m1_macro_sy_mipi_raw.dm
@@ -616,6 +618,7 @@ vendor/lib64/libcamera_scene.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/lib_bsscore.so
+vendor/lib64/lib_sr_models.so
 vendor/lib64/libaalservice.so
 vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
@@ -684,6 +687,7 @@ vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmfllcore.so
+endor/lib64/libmi_bokehpre.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_mt6873.so
 vendor/lib64/libmpbase.so
@@ -751,6 +755,9 @@ vendor/lib64/libmtkcam_sysutils.so
 vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libmtkcam_vsync_util.so
+vendor/lib64/libmtkisp_metadata.so
+vendor/lib64/libsdk_sr.so
+vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -764,6 +771,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 
 # Camera-configs
 vendor/etc/camera/102_SummerDay.png
