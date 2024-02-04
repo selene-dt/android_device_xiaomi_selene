@@ -287,6 +287,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Power Off Alarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm
+
 # Properties
 include $(LOCAL_PATH)/configs/props/vendor_logtag.mk
 
