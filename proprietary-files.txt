@@ -687,7 +687,7 @@ vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libmfllcore.so
-endor/lib64/libmi_bokehpre.so
+vendor/lib64/libmi_bokehpre.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_mt6873.so
 vendor/lib64/libmpbase.so
@@ -874,7 +874,6 @@ vendor/lib/libudf.so
 vendor/lib/mt6768/libdpframework.so:vendor/lib/libdpframework.so
 vendor/lib/mt6768/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
 vendor/lib/mt6768/libpq_prot.so:vendor/lib/libpq_prot.so
-vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.10.so
@@ -1003,7 +1002,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar|c15b68bbb14c5
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/bin/mnld
-endor/bin/mtk_agpsd
+vendor/bin/mtk_agpsd
 vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
@@ -1043,9 +1042,7 @@ vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/bin/vpud
 vendor/etc/init/vpud.rc
 vendor/lib/AVCSecureVdecCA.so
-vendor/lib/HEVCSecureVdecCA.so
 vendor/lib/VP9SecureVdecCA.so
-vendor/lib/libAVCSecureVencCA.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libvcodecdrv.so
@@ -1247,8 +1244,7 @@ vendor/odm/etc/init/eos/android.hardware.secure_element@1.2-service-mediatek.rc:
 
 # Sensors
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
-vendor/lib64/hw/sensors.mt6833.so
-vendor/lib64/libhfmanager.so
+vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libhwm.so
 vendor/lib64/libksensor.so
 vendor/lib64/libsensor_custom.so
