@@ -77,6 +77,10 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 TARGET_KERNEL_CONFIG := selene_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/selene
 
+# NFC
+ODM_MANIFEST_SKUS += eos
+ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos.xml
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := selenes,eos,selene
 
