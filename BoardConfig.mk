@@ -43,6 +43,9 @@ TARGET_NO_BOOTLOADER := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Firmware
+-include vendor/xiaomi/selene-firmware/BoardConfigVendor.mk
+
 # FM
 BOARD_HAVE_MTK_FM := true
 
