@@ -1,9 +1,0 @@
-# Unpinned blobs from MIUI V14.0.6.0 TKUMIXM (selene) fastboot package
-
-lk.img;AB
-md1img.img;AB
-scp.img;AB
-spmfw.img;AB
-sspm.img;AB
-tee.img;AB
-
