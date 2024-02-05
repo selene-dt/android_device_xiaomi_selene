@@ -5,7 +5,6 @@ product                                                  /product               
 mi_ext                                                   /mnt/vendor/mi_ext           ext4        ro              wait,slotselect,avb=vbmeta,logical,first_stage_mount,nofail
 /dev/block/platform/bootdevice/by-name/md_udc            /metadata                    ext4        noatime,nosuid,nodev,discard           wait,check,formattable,first_stage_mount
 /dev/block/platform/bootdevice/by-name/userdata          /data                        f2fs        noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065,inlinecrypt,checkpoint_merge,fsync_mode=nobarrier     wait,check,formattable,quota,latemount,resize,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption
-/dev/block/platform/bootdevice/by-name/rescue            /cache                       ext4        noatime,nosuid,nodev,noauto_da_alloc,discard          wait,check,formattable
 /dev/block/platform/bootdevice/by-name/protect1          /mnt/vendor/protect_f        ext4        noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc         wait,check,formattable
 /dev/block/platform/bootdevice/by-name/protect2          /mnt/vendor/protect_s        ext4        noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc         wait,check,formattable
 /dev/block/platform/bootdevice/by-name/nvdata            /mnt/vendor/nvdata           ext4        noatime,nosuid,nodev,noauto_da_alloc,discard          wait,check,formattable
