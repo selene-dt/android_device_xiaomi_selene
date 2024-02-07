@@ -546,6 +546,7 @@ vendor/firmware/lib3a.ccu
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_tuning.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_tuning.so
+vendor/lib64/gc02m1b_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_macro_aac_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_macro_aac_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1_macro_aac_mipi_raw_india_tuning.so
