@@ -73,3 +73,11 @@ prebuilt_etc {
     src: "etc/ueventd.mtk.rc",
     vendor: true,
 }
+
+// Recovery init configuration
+prebuilt_etc {
+    name: "init.recovery.mt6768.rc",
+    recovery: true,
+    src: "etc/init.recovery.mt6768.rc",
+    sub_dir: "init",
+}
