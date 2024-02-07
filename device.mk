@@ -63,6 +63,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libalsautils \
+    libnbaio_mono
+    libtinycompress \
     libdynproc \
     libhapticgenerator
 
