@@ -322,6 +322,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6768 \
     fstab.mt6768.ramdisk \
     init.connectivity.rc \
+    init.cgroup.rc \
     init.modem.rc \
     init.mt6768.rc \
     init.mt6768.usb.rc \
