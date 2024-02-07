@@ -4,6 +4,10 @@
 vendor/lib/libaedv.so
 vendor/lib64/libaedv.so
 
+# APDB
+vendor/etc/apdb/APDB_MT6768_S01__W2236
+vendor/etc/apdb/APDB_MT6768_S01__W2236_ENUM
+
 # Audio
 vendor/firmware/aw87559_pid_5a_fm_0.bin
 vendor/firmware/aw87559_pid_5a_music_0.bin
