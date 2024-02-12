@@ -763,6 +763,11 @@ vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libmtkcam_vsync_util.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libsdk_sr.so
+vendor/lib64/libstereoinfoaccessor_vsdof.so
+vendor/lib64/libvideofilter_only.so
+vendor/lib64/libwapi.so
+vendor/lib64/libwa_dof.so
+vendor/lib64/libwa_rtdof.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -778,6 +783,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Camera-configs
 vendor/etc/camera/102_SummerDay.png
