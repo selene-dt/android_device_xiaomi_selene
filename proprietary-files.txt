@@ -9,6 +9,14 @@ vendor/etc/apdb/APDB_MT6768_S01__W2236
 vendor/etc/apdb/APDB_MT6768_S01__W2236_ENUM
 
 # Audio
+vendor/firmware/aw87519_drcv.bin
+vendor/firmware/aw87519_hvload.bin
+vendor/firmware/aw87519_kspk.bin
+vendor/firmware/aw87559_pid_59_fm_0.bin
+vendor/firmware/aw87559_pid_59_music_0.bin
+vendor/firmware/aw87559_pid_59_off_0.bin
+vendor/firmware/aw87559_pid_59_rcv_0.bin
+vendor/firmware/aw87559_pid_59_voice_0.bin
 vendor/firmware/aw87559_pid_5a_fm_0.bin
 vendor/firmware/aw87559_pid_5a_music_0.bin
 vendor/firmware/aw87559_pid_5a_off_0.bin
