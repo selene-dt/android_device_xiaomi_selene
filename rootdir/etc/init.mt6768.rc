@@ -8,7 +8,7 @@ import /vendor/etc/init/hw/init.modem.rc
 
 on early-init
     # load vendor-modules
-    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules fpsgo wmt_drv wmt_chrdev_wifi wlan_drv_gen4m bt_drv_connac1x gps_drv fmradio_drv_mt6631 connfem udc_lib met
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules fpsgo wmt_drv wmt_chrdev_wifi wlan_drv_gen4m bt_drv_connac1x gps_drv fmradio_drv_mt6631 connfem udc_lib met
 
     # boot perf. tune
     write /proc/perfmgr/boost_ctrl/cpu_ctrl/boot_freq "0 0 0 0"
