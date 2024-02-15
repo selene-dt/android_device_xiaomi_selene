@@ -543,6 +543,7 @@ vendor/bin/libccu_ov8856_ofilm_front_mipi_raw.pm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.dm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.pm
 vendor/firmware/lib3a.ccu
+-vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_tuning.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_tuning.so
