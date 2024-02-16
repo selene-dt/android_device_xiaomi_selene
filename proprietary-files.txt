@@ -1123,6 +1123,41 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 
+# Neural Networks - from emerald-user 13 TP1A.220624.014 V14.0.4.0.TNFMIXM release-keys
+vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk|1e336c686bcde5ac1661b734b56770c328924ba3
+vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc|81f48642ce64d253fc25eae0780a4233b547d67c
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml|072d951534bb7da4b353f787a565141c9ce749b4
+vendor/lib/libapu_mdw.so|0ada4c78774bee34e16e98527885a8dca22c51b3
+vendor/lib/libapusys.so|a1356c1a49c5a611725167457d1c97995861d769
+vendor/lib/libapusys_edma.so|958119cb6047ccd9f99a8748b0470eaf67591efa
+vendor/lib/libarmnn.so|ae9d6247fd844baf40132552cdcd117da89fd861
+vendor/lib/libarmnn_ndk.mtk.vndk.so|395bee4e397d0a77b61d6961d072d748b808bff8
+vendor/lib/libcmdl.so|e870868a6c0b09add8cd492aed6b8247912424fa
+vendor/lib/libcmdl_ndk.mtk.vndk.so|4846123e21e8cdd495552712de4ecb401983f26f
+vendor/lib/libneuroeara.so|59307f9398f4ccf4f9b1f95590a25fa26e30213a
+vendor/lib/libneuropilot_hal_utils.so|645df3a4ef4c6fc4174108330106a71b0ab56090
+vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so|0abc909749b8269b66959fa7063b2bb858fdaae0
+vendor/lib/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so|35e61b88d8adf34b141783d6f8b27465e71dc7d1
+vendor/lib/mt6789/libneuron_adapter_mgvi.so:vendor/lib/libneuron_adapter_mgvi.so|25724325266a2cd5c6c124e8f49c10e2b2942da0
+vendor/lib/mt6789/libnir_neon_driver.so:vendor/lib/libnir_neon_driver.so|1452a010fc48906f2246f010ea22be725792f04a
+vendor/lib64/APUWareUtilsServer.so|08463fc5aee849a9d60e926aa309bfa00783dded
+vendor/lib64/libapu_mdw.so|336f7f34281b086ff0eacb255fe624b48dfd1e84
+vendor/lib64/libapusys.so|cb1f30e5d62ae8351baa35a6f0936733e5f26579
+vendor/lib64/libapusys_edma.so|f502bf8f294458b5ae72f134de641929087c6003
+vendor/lib64/libarmnn.so|9c3806de0fc4d0178b589c9fc7f79149bd23f7db
+vendor/lib64/libarmnn_ndk.mtk.vndk.so|bdf967e92ef52712c96e35d9587c7a7edbbb060b
+vendor/lib64/libcmdl.so|0591aa79f6cc43f57545d840f2cf33993202041e
+vendor/lib64/libcmdl_ndk.mtk.vndk.so|986c33f0d44c2294d3a5331e9f89d042aa17290e
+vendor/lib64/libneuroeara.so|1c86e38a686efb05ad8b0746fad07b5bd2656b96
+vendor/lib64/libneuron_adapter.so|70c42b36c36bd6af3a10daab542d006444e763dc
+vendor/lib64/libneuron_platform.so|3fab22eb47e33690a62a5490d943050791e92edf
+vendor/lib64/libneuropilot_hal_utils.so|4cbc2ed839328f83807f93b375679d4a43c76cdc
+vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so|2eed6be515d0cb75eb8e6efee8f9e8e08697d0d0
+vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so|171dce7639f5de917036f831d1f59b3581a17a19
+vendor/lib64/mt6789/libneuron_adapter_mgvi.so:vendor/lib64/libneuron_adapter_mgvi.so|1cf74d9f5be7e72de00f5cd9c8cff665a7718fae
+vendor/lib64/mt6789/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so|0142ac349acbc17c4586e76f9ec3e39bb9ac07a8
+vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so|8cc8c642b24e44838549e79b96a2f2a29d3fc547
+
 # NFC
 vendor/lib/libpn553_fw.so
 
