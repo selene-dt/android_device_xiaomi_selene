@@ -133,8 +133,8 @@ BOARD_VENDOR := xiaomi
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/hidl/power/power-mode.cpp
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/vintf/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/vintf/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true

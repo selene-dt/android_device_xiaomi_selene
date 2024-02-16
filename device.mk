@@ -47,6 +47,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@7.0-impl \
@@ -63,7 +65,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libalsautils \
-    libnbaio_mono
+    libnbaio_mono \
     libtinycompress \
     libdynproc \
     libhapticgenerator
