@@ -27,6 +27,7 @@ vendor/firmware/fs1815.fsm
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/hw/awinic.audio.effect.so
+vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
@@ -64,6 +65,7 @@ vendor/lib/libspeech_enh_lib.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
+vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 
 # Audio-configs
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -550,6 +552,7 @@ vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.dm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.pm
 vendor/firmware/lib3a.ccu
 -vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/libalLDC.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_tuning.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_tuning.so
@@ -623,6 +626,8 @@ vendor/lib64/lib3a.gma.so
 vendor/lib64/lib3a.lce.so
 vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
+vendor/lib64/libailab_hdr_preview.so
+vendor/lib64/libremosaiclib.so
 vendor/lib64/libcameracustom.eis.so
 vendor/lib64/libcameracustom.plugin.so
 vendor/lib64/libcameracustom.so
@@ -703,8 +708,14 @@ vendor/lib64/libmfllcore.so
 vendor/lib64/libmi_bokehpre.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_mt6873.so
+vendor/lib64/libalhLDC.so
+vendor/lib64/libaltek_ldc_preview.so
+vendor/lib64/libabfadp.so
+vendor/lib64/libanc_dc_base.so
+vendor/lib64/libmi_videofilter.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmsnr.so
+vendor/lib64/libmi_asd.so
 vendor/lib64/libmtkcam.atmseventmgr.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
@@ -769,6 +780,7 @@ vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libmtkcam_vsync_util.so
 vendor/lib64/libmtkisp_metadata.so
+vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libvideofilter_only.so
@@ -1178,6 +1190,7 @@ vendor/lib64/libneuroeara.so|1c86e38a686efb05ad8b0746fad07b5bd2656b96
 vendor/lib64/libneuron_platform.so|3fab22eb47e33690a62a5490d943050791e92edf
 vendor/lib64/libneuropilot_hal_utils.so|4cbc2ed839328f83807f93b375679d4a43c76cdc
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so|2eed6be515d0cb75eb8e6efee8f9e8e08697d0d0
+vendor/lib64/libvpu.so|470500ff0927446a422084f95f7a9ccbe585e549
 vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so|171dce7639f5de917036f831d1f59b3581a17a19
 vendor/lib64/mt6789/libneuron_adapter_mgvi.so:vendor/lib64/libneuron_adapter_mgvi.so|1cf74d9f5be7e72de00f5cd9c8cff665a7718fae
 vendor/lib64/mt6789/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so|0142ac349acbc17c4586e76f9ec3e39bb9ac07a8
