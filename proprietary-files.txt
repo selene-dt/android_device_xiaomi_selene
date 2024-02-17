@@ -506,6 +506,8 @@ vendor/etc/audio_param_k19a_ce/VoWVoiceCommand_ParamUnitDesc.xml
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bt_drv.rc
+vendor/firmware/BT_FW.cfg
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -858,15 +860,8 @@ vendor/etc/init/init.connfem.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/firmware/WMT_SOC.cfg
 vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/txpowerctrl.cfg
-
-# Connectivity (Firmware) - from a05mxx-user 13 TP1A.220624.014 A055FXXU2AWK1 release-keys
-vendor/firmware/BT_FW.cfg|48ecc83e9d9c32fdf2e80b824d368234f724eae7
-vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin|912264e1145a18f603839835248cbdb39c48b0dd
-vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|3af1bc90257013cbd7a674491dbbbd50f924309f
-vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin|740241ce613267a43370e1a3b1124f0247f4eaae
-vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin|c05ab00d2bc46ce69cae1f1fd8653c62f14ec802
-vendor/firmware/wifi.cfg|7c26253095570c11feefab176e412ca2f2f7a5ac
 
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
@@ -1434,4 +1429,7 @@ vendor/firmware/awinic_params.bin
 vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/wlan_assistant.rc
+vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin
+vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin
+vendor/firmware/wifi.cfg
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
