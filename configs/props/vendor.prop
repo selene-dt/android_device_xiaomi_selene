@@ -48,15 +48,13 @@ persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
 ro.mtk_cam_stereo_camera_support=1
-ro.vendor.camera.directfdyuv.support=1
+ro.vendor.mtk_zsdhdr_support=1
 ro.vendor.camera.isp.support.colorspace=0
-ro.vendor.camera3.zsl.default=270
-ro.vendor.mtk_cam_security_support=1
+ro.vendor.camera3.zsl.default=140
 ro.vendor.mtk_camera_app_version=3
 vendor.camera.mdp.cz.enable=1
-vendor.camera.mdp.dre.enable=1
-vendor.camera.mdp.hfg.enable=1
-vendor.mtk.camera.app.fd.video=1
+ro.vendor.mtk_slow_motion_support=1
+vendor.camera.mdp.dre.enable=0
 
 # Connsys
 persist.vendor.connsys.chipid=-1
