@@ -1311,10 +1311,10 @@ system/framework/mediatek-ims-base.jar
 system/framework/mediatek-ims-common.jar
 system/framework/mediatek-ims-extension-plugin.jar
 system/framework/mediatek-telecom-common.jar
-system/framework/mediatek-telephony-base.jar
+system/framework/mediatek-telephony-base.jar|009d2696ba2ceb4d58dca2a6535b7c74f252caf2
 system/framework/mediatek-telephony-common.jar
 system/framework/mediatek-wfo-legacy.jar
-system/priv-app/ImsService/ImsService.apk
+system/priv-app/ImsService/ImsService.apk|a6fc4d9e7339c7d9c6dd9b994a00e4a965c91df4
 
 # Radio (SYSTEM-IMS) - from TECNO-CK9n UP1A.230519.001
 system_ext/bin/vtservice|59adc81ee1ad1f3fb4942cd6e8e7100325002eb2
