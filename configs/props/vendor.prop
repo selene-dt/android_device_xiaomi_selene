@@ -159,6 +159,9 @@ ro.vendor.audio.dolby.dax.support=true
 # DRM
 ro.netflix.bsp_rev=MTK6768-19055-1
 
+# FM Radio
+ro.vendor.builtin_fm_antenna_support=1
+
 # Gatekeeper
 ro.hardware.gatekeeper=beanpod
 
