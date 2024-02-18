@@ -597,6 +597,9 @@ on post-fs-data
 
     chmod 0666 /dev/uio0
 
+    #Create dir for dolby
+    mkdir /data/vendor/dolby 0770 media media
+
     #otp
     chmod 0660 /proc/driver/otp
     chown root system /proc/driver/otp
