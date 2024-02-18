@@ -1288,6 +1288,19 @@ vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
+# Radio (Engineer Mode) - from fire-user 14 UP1A.231005.007 V816.0.1.0.UMXMIXM release-keys
+system_ext/app/EngineerMode/EngineerMode.apk|68b9cbbd36f4066f1e2985b15fb46c6e9493479b
+system_ext/lib/libem_support_jni.so|6c3865d9b7481ad26a98fd08e554cc64c7bb9781
+system_ext/lib64/libem_support_jni.so|eb306c26aa91b3d84e701f2bde6819f3ffafe7fd
+vendor/bin/em_hidl|146d8cf6507361020f0b9f5f38e73e93f98bed55
+vendor/etc/init/em_hidl_user.rc|7875e77f7e5bd621b22970c9e0f5a92869c7ac9e
+vendor/lib64/libbluetooth_relayer.so|1740c006897b73a04e3f0c382e77954c4c954bc7
+vendor/lib64/libbluetoothem_mtk.so|d2b5a55e39f54c5636672b9f5daf886a4abe79c1
+vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so|375fe81257da1d9912067618a55a9d2cb3df25f1
+vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so|388383e9201b9a910eda173cdc3ddc129b5cebdb
+vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so|6e420a930ccb06917d01b3a6a916629c8757725c
+vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so|73b892c4704ceb7568b23186b972967318fcf0c2
+
 # Radio (IMS)
 vendor/bin/rcs_volte_stack
 vendor/bin/volte_clientapi_ua
