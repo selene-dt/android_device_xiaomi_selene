@@ -507,7 +507,6 @@ vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bt_drv.rc
 vendor/firmware/BT_FW.cfg
-vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -862,6 +861,9 @@ vendor/firmware/WMT_SOC.cfg
 vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
 vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/txpowerctrl.cfg
+
+# Connectivity (Firmware) - from A145PXXU1AWA3
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|9cd0d79cde76a59ddd8545b1621af1176c5f9605
 
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
