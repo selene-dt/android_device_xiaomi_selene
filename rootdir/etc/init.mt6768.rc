@@ -39,7 +39,7 @@ on late-init
 
 # mount different fs start
 
-on charger
+on property:init.svc.vendor.charger=running
     write /proc/perfmgr/boost_ctrl/cpu_ctrl/boot_freq "-1 -1 -1 -1"
     write /sys/devices/platform/10012000.dvfsrc/helio-dvfsrc/dvfsrc_req_ddr_opp -1
 
