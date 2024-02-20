@@ -32,6 +32,9 @@
 # Health
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.selene                             u:object_r:hal_health_default_exec:s0
 
+# Ir
+/(vendor|system/vendor)/bin/hw/android\.hardware\.ir-service\.selene                                    u:object_r:hal_ir_default_exec:s0
+
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi                              u:object_r:hal_light_default_exec:s0
 
