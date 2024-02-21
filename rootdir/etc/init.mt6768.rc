@@ -18,6 +18,9 @@ on early-init
 
     setprop vendor.all.modules.ready 1
 
+    # Set SKU prop for NFC
+    setprop ro.boot.product.hardware.sku ${ro.product.vendor.device}
+
 on init
     # change lk_env permission
     chown root system /proc/lk_env
