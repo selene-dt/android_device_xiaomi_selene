@@ -242,6 +242,17 @@ ro.vendor.sim_me_lock_mode=3
 telephony.lteOnCdmaDevice=1
 persist.cust.tel.eons=1
 
+# RAM
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+
 # IMS
 persist.vendor.anr.enhancement=0
 persist.vendor.ims_support=1
