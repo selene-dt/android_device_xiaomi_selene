@@ -9,5 +9,11 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
+# Power Saving
+power.saving.mode=1
+pm.sleep_mode=1 
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+
 # Zygote
 zygote.critical_window.minute=10
