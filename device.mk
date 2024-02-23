@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     libhapticgenerator
 
 PRODUCT_PACKAGES += \
+    BesLoudness \
     XiaomiDolby \
     MtkInCallService
 
