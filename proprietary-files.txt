@@ -992,32 +992,6 @@ vendor/firmware/nt36672c_tm_01_ts_mp.bin
 vendor/firmware/nt36672c_tr_02_ts_fw.bin
 vendor/firmware/nt36672c_tr_02_ts_mp.bin
 
-# Dolby - from emerald-user 13 TP1A.220624.014 V14.0.4.0.TNFMIXM release-keys
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|cbb6a29105c8c1e22e9897dc6a5474ff9271b980
-vendor/etc/dolby/dax-default.xml|13dfe7db722c12d8e17a92acc83eb8d22fdcad40
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|1cff2b592a6c173bd569fd7e6e9db0fadfc15174
--vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|8e958d4328da6faca65d0a376361d745fbdfb818
-vendor/lib/soundfx/libswdap.so|9c11321e4fbd8702057b6c53d8fd3e7bbbbcdf24
-vendor/lib/soundfx/libswgamedap.so|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/lib/soundfx/libswvqe.so|a405638520fa2ef29f3e9cfd255e600da10ba3ae
-vendor/lib/libdapparamstorage.so|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/lib/libdeccfg.so|e8f1c5784bbc2d640df25ed88d1193355766b143
-vendor/lib/libstagefright_soft_ac4dec.so|fc73132c990e37b949d64be2bcc213c18ef4eca4
-vendor/lib/libstagefright_soft_ddpdec.so|1fa495726daa7f64c7b12d17bcf8f03ef1a30375
-vendor/lib/libstagefrightdolby.so|df4c3cfee561db32524d33264f9922cc55629faf
-vendor/lib/vendor.dolby.hardware.dms@2.0.so|2d10fd7316ba8a9de85534483ab05c02c1e6b242
-vendor/lib64/soundfx/libswdap.so|ea1435d63e08fd4a8b2d18a9cea0ca4c76e5753f
-vendor/lib64/soundfx/libswgamedap.so|fc73132c990e37b949d64be2bcc213c18ef4eca4
-vendor/lib64/soundfx/libswvqe.so|2b7eb89af1d12977a2fbd9d0c656ef6bfc633f40
-vendor/lib64/libdapparamstorage.so|c5ae12952f10691c6bef823369200091747daa42
-vendor/lib64/libdeccfg.so|c2e7c9941240a48cb40b432514060de53bf9b307
-vendor/lib64/libdlbdsservice.so|51898832d54e4166a3d586fa8fe6cb053345dd11
-vendor/lib64/libstagefright_soft_ac4dec.so|36ae53aafb113de5ba1f97ab5daf4b4abbd746f3
-vendor/lib64/libstagefright_soft_ddpdec.so|c5ae12952f10691c6bef823369200091747daa42
-vendor/lib64/libstagefrightdolby.so|bbe6625fe4575ec6208b31721d51a30ed93612d1
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|fc73132c990e37b949d64be2bcc213c18ef4eca4
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so|ce423907a29bd82bb76507326ee7a1aa052ed7df
-
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc

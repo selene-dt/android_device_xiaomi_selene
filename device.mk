@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     BesLoudness \
-    XiaomiDolby \
     MtkInCallService
 
 PRODUCT_COPY_FILES += \

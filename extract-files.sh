@@ -106,7 +106,6 @@ function blob_fixup {
             sed -i 's/1.1/1.2/' "$2"
             ;;
 	vendor/bin/hw/android.hardware.media.c2@1.2-mediatek |\
-        vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service)
             "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
             ;;
     esac
