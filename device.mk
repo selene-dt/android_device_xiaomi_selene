@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension@1.0.vendor \
 
 PRODUCT_PACKAGES += \
-    libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # FM
 PRODUCT_PACKAGES += \
