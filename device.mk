@@ -400,8 +400,8 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3.vendor \
-    android.hardware.usb.gadget@1.1.vendor
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
 
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
