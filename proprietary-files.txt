@@ -1284,7 +1284,7 @@ vendor/etc/init/init.vtservice_hidl.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
-# Radio (SYSTEM-IMS) - from rock-user 14 UP1A.231005.007 V816.0.2.0.ULUMIXM release-keys
+# Radio (SYSTEM-IMS) - from sea--user 14 UP1A.230905.011 V816.0.3.0.UHZMIXM release-keys
 system_ext/bin/vtservice|c564b117e67090087a1e1b10d4a9fa34b18c6566
 system_ext/etc/init/init.vtservice.rc|b78505e59d2ff62930692fa7df23e1b7565d5cc3
 system_ext/framework/mediatek-common.jar:system/framework/mediatek-common.jar|334947bd8e2a3a3718e772b0d1f511d6f1146e47
@@ -1303,15 +1303,13 @@ system_ext/lib64/libimsma_socketwrapper.so|1f21cbac8939e6b643219eeb41273e8fb7346
 system_ext/lib64/libmtk_vt_service.so|88637b86c11b9ddd6ec847737c7d6123ff687507
 system_ext/lib64/libmtk_vt_wrapper.so|bf953b355c56f5b7cbad0abd597c961e9f8d23e2
 system_ext/lib64/libsignal.so|716e76684b538fa39c1240da06cbd8c8873aeb26
-system_ext/lib64/libsink.so|50ac65369b0781c2cb2988f8454d324060e7a865
+system_ext/lib64/libsink.so|50ac65369b0781c2cb2988f8454d324060e7a865|5f86fccf5593f85c90d0ca435c403c22e29bd41c
 system_ext/lib64/libsource.so|ae49f6686a5555b57f9b6faeac1d110f093b71ff
 system_ext/lib64/libvcodec_cap.so|6dd245ede366b986d4c680ed9cf269f84a437be5
 system_ext/lib64/libvcodec_capenc.so|cc9ecb85faac477933075dbdc50b090db12d4204
 system_ext/lib64/libvt_avsync.so|a6c4b044ab26c8d20d6a0eacda913b6369bbdf2c
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|2db2fbdf36802cd71658e1a022a935c4627dc181
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|606cab1298a4b199c097449bdc755c53f34430bb
-
-# Radio (IMS-App) - from rock-user 14 UP1A.231005.007 V816.0.2.0.ULUMIXM release-keys
 system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|d62d236d83d8a91655b89554e1e1bf12f280568b
 
 # Secure Element
