@@ -56,6 +56,9 @@ vendor.camera.mdp.cz.enable=1
 ro.vendor.mtk_slow_motion_support=1
 vendor.camera.mdp.dre.enable=0
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Connsys
 persist.vendor.connsys.chipid=-1
 persist.vendor.connsys.coredump.mode=0
