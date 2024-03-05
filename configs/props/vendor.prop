@@ -152,6 +152,9 @@ ro.vendor.builtin_fm_antenna_support=1
 # Gatekeeper
 ro.hardware.gatekeeper=beanpod
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # GNSS
 ro.vendor.gps.chrdev=gps_drv
 ro.vendor.mtk_log_hide_gps=1
