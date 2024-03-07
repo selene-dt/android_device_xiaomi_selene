@@ -1310,7 +1310,9 @@ system_ext/lib64/libvcodec_capenc.so|cc9ecb85faac477933075dbdc50b090db12d4204
 system_ext/lib64/libvt_avsync.so|a6c4b044ab26c8d20d6a0eacda913b6369bbdf2c
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|2db2fbdf36802cd71658e1a022a935c4627dc181
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|606cab1298a4b199c097449bdc755c53f34430bb
-system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|d62d236d83d8a91655b89554e1e1bf12f280568b
+
+## Radio (App) - from from https://github.com/selene-dt/ImsService
+system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|d62d236d83d8a91655b89554e1e1bf12f280568b|4bd1e26dcb5701aa2703283454934e12817f51fd
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
