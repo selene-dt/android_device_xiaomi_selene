@@ -149,6 +149,9 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-09-01
 
+# Vibrator
+TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
