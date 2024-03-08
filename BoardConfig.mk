@@ -42,6 +42,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
 # Firmware
 -include vendor/xiaomi/selene-firmware/BoardConfigVendor.mk
