@@ -1088,15 +1088,15 @@ vendor/etc/mtk_omx_core.cfg|686aad3302adf1f81f1291441b8335b0fb3f40cd
 vendor/etc/mtk_platform_codecs_config.xml|4e62976f03c0b9bd4517bef817d5ad855cfeb835
 
 # Media (C2)
-vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
+vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
-vendor/lib/libcodec2_mtk_c2store.so
-vendor/lib/libcodec2_mtk_vdec.so
-vendor/lib/libcodec2_mtk_venc.so
-vendor/lib/libcodec2_vpp_qt_plugin.so
-vendor/lib/libcodec2_vpp_rs_plugin.so
-vendor/lib/libformatter.so
+vendor/lib64/libcodec2_mtk_c2store.so
+vendor/lib64/libcodec2_mtk_vdec.so
+vendor/lib64/libcodec2_mtk_venc.so
+vendor/lib64/libcodec2_vpp_qt_plugin.so
+vendor/lib64/libcodec2_vpp_rs_plugin.so
+vendor/lib64/libformatter.so
 
 # Media (OMX)
 vendor/lib/libMtkOmxAdpcmDec.so
