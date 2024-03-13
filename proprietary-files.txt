@@ -1083,9 +1083,9 @@ vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 
-# Media (Configs)
-vendor/etc/mtk_omx_core.cfg
-vendor/etc/mtk_platform_codecs_config.xml
+# Media (Configs) - from from fire-user 14 UP1A.231005.007 V816.0.1.0.UMXMIXM release-keys
+vendor/etc/mtk_omx_core.cfg|686aad3302adf1f81f1291441b8335b0fb3f40cd
+vendor/etc/mtk_platform_codecs_config.xml|4e62976f03c0b9bd4517bef817d5ad855cfeb835
 
 # Media (C2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
