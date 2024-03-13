@@ -272,6 +272,11 @@ ro.vendor.mtk_data_config=1
 # Sensors
 ro.vendor.mtk.sensor.support=yes
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # Trusted Execution Environment (TEE)
 ro.hardware.wechat=beanpod
 ro.vendor.mtk_microtrust_tee_support=1
